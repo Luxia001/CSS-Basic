@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Sriracha&display=swap" rel="stylesheet">
+    <style>
+        /* "ctr + /" */
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: greenyellow;
+        }
+        a:hover{
+            text-decoration: underline;
+            background-color: aqua;
+            color: yellow;
+        }
+        a:active{
+            background-color: aliceblue;
+            color: black;
+        }
+        div{
+            width: auto;
+            height: 500px;
+            margin: 10px;
+        }
+        body{
+            background-image: url('https://scontent.fkdt3-1.fna.fbcdn.net/v/t39.30808-6/280103724_769170967792138_5960270721231526969_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHttrx8DhRpoMnqfwVgy1olYQ3ZCAt3KchhDdkIC3cpyOFN6Znt81NJ2ICSWgS53mLpqrcl3tU8h8fTQhNYWoIW&_nc_ohc=8ooMpuo9cAgAX-pOWWZ&_nc_ht=scontent.fkdt3-1.fna&oh=00_AT_r_jRYoPpCDHUgdyEBiUmpPzo8TBZ7kO2dOkqKWtYBUA&oe=62C1E086');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        .box1{
+            background: url('image/Polearms.jpg') repeat-x fixed center ;
+            background-size: contain;
+            border-style: double ;
+            border-width: 10px;
+            border-top-width: 5px ;
+            border-left-width: 5px;
+            border-top-left-radius: 20% ;
+            border-bottom-right-radius:20% ;
+            padding: 10px 100px;
+        }
+        .box1 img{
+            box-sizing: border-box;
+            float: left;
+        }
+        .clear{
+            clear: both;
+        }
+        .box2{
+            padding: 2px 10px 2px;
+            background-color: blue;
+            border-top-style: solid;
+            border-color: coral;
+            color: aliceblue;
+        }
+        .box2 img{
+            box-sizing: border-box;
+            float: right;
+        }
+        .box3{
+            background-color: pink;
+            border: dashed 5px crimson ;
+            border-top-color: aqua;
+            border-right-color: violet;
+        }
+        .box4{
+            background: white;
+            border-radius: 5% 10% 15% 20%;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="/index.html">HOME</a>
+    <a href="https://www.google.com/" target="_blank">Google</a>
+    <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    <div class="box1">
+        <p>
+            <img src="image/Polearms-VortexVavquisher.jpg" alt="" width="200px" height="300">
+            <h1>Polearms-VortexVavquisher</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit necessitatibus exercitationem temporibus unde soluta labore ipsam perferendis quos impedit ducimus? Ex, vitae reprehenderit. Labore modi tempora officia eveniet ipsa eius.</p>
+    </div>
+    <hr>
+    <div class="clear">
+
+    </div>
+    <hr>
+    <div class="box2">
+        <img src="image/Polearms-FavoniusLance.jpg" alt="" width="200px" height="300">
+        <h1>Polearms-FavoniusLance</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ipsum aperiam harum autem hic non, doloremque corrupti iusto ad animi optio qui excepturi, unde praesentium voluptas vel eaque quisquam. Hic.</p>
+    </div>
+    <hr>
+    <div class="box3"></div>
+    <hr>
+    <div class="box4"></div>
+    <hr>
+    
+</body>
+</html>
